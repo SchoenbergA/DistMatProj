@@ -3,6 +3,8 @@
 
 ## ToDo
 ### Distanzmatrix DR
+* Erstmal kleinere AOI testen
+  - Daten vorbereiten
 * Datensammlung und Verarbeitung
    - SRTM 1-arc-sec-global (non-filled)
       * ~~besorgen für ganzes Deutsches Reich~~
@@ -14,9 +16,7 @@
       * ~~zuschneiden auf Deutsches Reich / AOI~~
    - Boundingbox einladen
        * ggf Robert fragen
- 
-* Erstmal kleinere AOI testen
-   - welche?
+         
  
 * Matrix erstellen (Andis PC)
  
