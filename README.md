@@ -5,9 +5,9 @@
 
 * Datensammlung und Verarbeitung
    - SRTM 1-arc-sec-global (non-filled)
-      -> besorgen für ganzes Deutsches Reich 
-      -> resamplen für gleiches format
-      -> 1 merge dann 2 Void fill 
+      -- besorgen für ganzes Deutsches Reich 
+      -- resamplen für gleiches format
+      -- 1 merge dann 2 Void fill 
    - OSM
       -> kompletter Europa datensatz besorgen
       -> zuschneiden auf Deutsches Reich / AOI
