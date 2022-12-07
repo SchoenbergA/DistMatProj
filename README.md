@@ -1,23 +1,27 @@
 # DistMatProj
  DistanzMatrixProject
 
-### ToDo
-
+## ToDo
+### Distanzmatrix DR
 * Datensammlung und Verarbeitung
    - SRTM 1-arc-sec-global (non-filled)
-      * besorgen für ganzes Deutsches Reich 
+      * ~~besorgen für ganzes Deutsches Reich~~
       * resamplen für gleiches format
-      * 1 merge dann 2 Void fill 
+      * mergen 
+      * void fill 
    - OSM
-      -> kompletter Europa datensatz besorgen
-      -> zuschneiden auf Deutsches Reich / AOI
+      * ~~kompletter Europa datensatz besorgen~~
+      * ~~zuschneiden auf Deutsches Reich / AOI~~
+   - Boundingbox einladen
+       * ggf Robert fragen
  
 * Erstmal kleinere AOI testen
+   - welche?
  
 * Matrix erstellen (Andis PC)
  
       
-### Notes
+## Notes
 
 * Boundingbox einladen
     -> ggf Robert fragen
