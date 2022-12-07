@@ -3,7 +3,7 @@
 
 ## ToDo
 ### Distanzmatrix DR
-* Erstmal kleinere AOI testen
+* Erstmal kleinere AOI testen (BBox_medium_
   - Daten vorbereiten
 * Datensammlung und Verarbeitung
    - SRTM 1-arc-sec-global (non-filled)
