@@ -2,13 +2,13 @@
 
 api_version = 2
 
-
-LON_MIN = 7.4177680640243899-0.00013889  --tonumber(os.getenv("LON_MIN"))
-LON_MAX = 12.4342842378048992-0.00013889 --tonumber(os.getenv("LON_MAX"))
-LAT_MIN = 47.9090831097560965-0.00013889 --tonumber(os.getenv("LAT_MIN"))
-LAT_MAX = 52.6769672865854020 --tonumber(os.getenv("LAT_MAX"))
-NCOLS = 18059
-NROWS = 17163 
+, : ,
+LON_MIN = 4.9997222222222222-0.00013889  --tonumber(os.getenv("LON_MIN"))
+LON_MAX = 24.0002777777778249-0.00013889 --tonumber(os.getenv("LON_MAX"))
+LAT_MIN = 44.9998611111110733-0.00013889 --tonumber(os.getenv("LAT_MIN"))
+LAT_MAX = 57.0001388888888840-0.00013889 --tonumber(os.getenv("LAT_MAX"))
+NCOLS = 68402
+NROWS = 43201 
 
 
 
@@ -58,7 +58,7 @@ function setup()
   return {
 
     raster_source = raster:load(
-      "/data/medium_AOI_SRTM.asc",
+      "/data/merge_filled_md110_si15.asc",
       LON_MIN,
       LON_MAX,
       LAT_MIN,
