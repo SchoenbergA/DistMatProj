@@ -1,0 +1,2 @@
+clipping of osm-data done via
+osmium extract -b 7.4177680640243899,47.9090831097560965,12.4342842378048992,52.6769672865854020 osm_DR.pbf -o osm_medium_AOI.pbf
