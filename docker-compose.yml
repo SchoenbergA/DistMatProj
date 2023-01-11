@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  osrm:
+    image: osrm/osrm-backend
+    volumes:
+      - ./osrm-data:/data
+    ports:
+      - 5000:5000
+    
+    command: > 
+        sh -c   "osrm-extract -p /opt/foot.lua /data/*.pbf &&
+                 osrm-partition /data/*.osrm &&
+                 osrm-customize /data/*.osrm &&
+                 osrm-routed --algorithm mld /data/*.osrm"
+
+
+
+  

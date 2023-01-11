@@ -3,6 +3,11 @@
 
 /DR/merge_filled_md110_si15.tiff
 
+medium_AOI/*.osrm*
+/medium_AOI/*.pbf
+/medium_AOI/*.csv
+
+
 
 # History files
 .Rhistory
