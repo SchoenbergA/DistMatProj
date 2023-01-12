@@ -2,7 +2,6 @@
 
 api_version = 2
 
-, : ,
 LON_MIN = 4.9997222222222222-0.00013889  --tonumber(os.getenv("LON_MIN"))
 LON_MAX = 24.0002777777778249-0.00013889 --tonumber(os.getenv("LON_MAX"))
 LAT_MIN = 44.9998611111110733-0.00013889 --tonumber(os.getenv("LAT_MIN"))

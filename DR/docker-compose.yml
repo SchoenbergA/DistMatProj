@@ -19,7 +19,7 @@ services:
       - 5000:5000
     
     command: > 
-        sh -c   "osrm-extract -p /opt/<PROFILE-NAME>.lua /data/*.pbf && 
+        sh -c   "osrm-extract -p /opt/myFoot_DR.lua /data/*.pbf && 
                  osrm-partition /data/*.osrm &&
                  osrm-customize /data/*.osrm &&
                  osrm-routed --max-table-size 2000000000 --algorithm mld /data/*.osrm" 
