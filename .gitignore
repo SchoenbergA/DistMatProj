@@ -1,13 +1,18 @@
-/medium_AOI/medium_AOI_SRTM.asc
-/medium_AOI/medium_AOI_SRTM.tiff
+/medium_AOI/osrm-data/medium_AOI_SRTM.asc
+/medium_AOI/osrm-data/medium_AOI_SRTM.tiff
 
-/DR/merge_filled_md110_si15.tiff
 
-/medium_AOI/*.osrm*
-/medium_AOI/*.pbf
+
 /medium_AOI/*.csv
 /medium_AOI/osrm-data/*.osrm*
 /medium_AOI/osrm-data/*.pbf
+
+/DR/osrm-data/merge_filled_md110_si15.tiff
+/DR/osrm-data/merge_filled_md110_si15.asc
+/DR/osrm-data/*.osrm*
+/DR/osrm-data/*.pbf
+/DR/*.csv
+
 
 
 

@@ -14,16 +14,17 @@ services:
   osrm:
     image: osrm/osrm-backend
     volumes:
-      - ./:/data
+      - ./osrm-data:/data
     ports:
       - 5000:5000
     
     command: > 
-        sh -c   "osrm-extract -p /data/myFoot_DR.lua /data/*.pbf && 
-                 osrm-partition /data/*.osrm &&
-                 osrm-customize /data/*.osrm &&
-                 osrm-routed --max-table-size 2000000000 --algorithm mld /data/*.osrm" 
+        sh -c   "osrm-routed --max-table-size 2000000000 --algorithm mld /data/*.osrm"
+#        sh -c   "osrm-extract -p /data/myFoot_DR.lua /data/*.pbf && 
+#                 osrm-partition /data/*.osrm &&
+#                 osrm-customize /data/*.osrm &&
+#                 osrm-routed --max-table-size 2000000000 --algorithm mld /data/*.osrm" 
 
-#      sh -c   "osrm-routed --max-table-size 2000000000 --algorithm mld /data/*.osrm"
+
 
   
