@@ -1,0 +1,30 @@
+version: "3.8"
+
+# This is a Template. For example, usage could be:
+# Copy this file in the directory where the
+# osm- and elevation data lies. Change <PROFILE-NAME>
+# to the actual filename u want to use.
+# After first execution, the first three commands
+# created all necessary data to run the server (via osrm-routed..)
+# and mustn't be executed again (if the data created is in
+# the right directory of course...). So, delete the first
+# three commands or set them as comments.
+
+services:
+  osrm:
+    image: osrm/osrm-backend
+    volumes:
+      - ./osrm-data:/data
+    ports:
+      - 5000:5000
+    
+    command: > 
+        sh -c   "osrm-routed --max-table-size 2000000000 --algorithm mld /data/*.osrm"
+#        sh -c   "osrm-extract -p /data/<PROFILE-NAME>.lua /data/*.pbf && 
+#                 osrm-partition /data/*.osrm &&
+#                 osrm-customize /data/*.osrm &&
+#                 osrm-routed --max-table-size 2000000000 --algorithm mld /data/*.osrm" 
+
+
+
+  
