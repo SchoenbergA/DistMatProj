@@ -6,7 +6,7 @@
 /medium_AOI/*.osrm*
 /medium_AOI/*.pbf
 /medium_AOI/*.csv
-/medium_AOI/osrm-data/*.osrm
+medium_AOI/osrm-data/*.osrm
 
 
 
