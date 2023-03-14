@@ -1,0 +1,5 @@
+Bootstrap: localimage
+From: osrm-backend.sif
+
+%runscript
+	osrm-routed -t 64 --algorithm MLD --max-table-size 2000000000 osm_DR.osrm 
