@@ -1,0 +1,6 @@
+
+
+ssh -p 223 -N -L 5000:<compute_host_name>:5000 oedm@marc3a.hrz.uni-marburg.de
+
+ssh -o TCPKeepAlive=yes -p 223 -N -L 5000:gpunode32:5000 oedm@marc3a.hrz.uni-marburg.de
+
