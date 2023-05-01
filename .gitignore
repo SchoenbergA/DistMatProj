@@ -11,6 +11,7 @@
 /DR/osrm-data/*.osrm*
 /DR/osrm-data/*.pbf
 
+DistanzmatrixServer/.idea
 
 
 
